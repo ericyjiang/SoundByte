@@ -1,13 +1,14 @@
 <h1 align='center'> :notes:  SoundBytes  :notes: </h1>
 
-<p align='center'> A responsive fully functioning music player web app </p>
+<p align='center'> A music player web app specializing in short previews, allowing users to discover new music faster than ever before. </p>
 
 <p align='center'> Web Preview </p>
-<p align='center'> <img src='src/assets/webPreview.png'></p>
+<p align='center'> <img src='src/assets/webPreview.png' width=950 height=500; ></p>
 
 <p align='center'>Mobile Preview </p>
+<p align='center'> <img src='src/assets/mobileGif.gif' width=275 height=600; ></p>
 
-<p align='center'> Soundbytes was built using JavaScript, <a href="https://reactjs.org/">React.js</a>, <a href='https://react-redux.js.org/'>Redux</a>, <a href='https://tailwindcss.com/'>Tailwind CSS</a>, and <a href='https://rapidapi.com/'> RapidAPI </a>
+<p align='center'> Soundbytes was built using JavaScript, <a href="https://reactjs.org/">React.js</a>, <a href='https://react-redux.js.org/'>Redux</a>, <a href='https://tailwindcss.com/'>Tailwind CSS</a>, <a href='https://rapidapi.com/'> RapidAPI</a>, and deployed through <a href='https://www.netlify.com/'>Netlify</a>
 
 ## Deployed Site :desktop_computer:
   Check out <a href='https://soundbyte.netlify.app/'> Soundbytes! </a> :point_left:
