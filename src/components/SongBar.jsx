@@ -40,7 +40,7 @@ const SongBar = ({ song, i, artistId, isPlaying, activeSong, handlePauseClick, h
         />
       )
       : (
-       null
+        null
       )}
   </div>
 );
