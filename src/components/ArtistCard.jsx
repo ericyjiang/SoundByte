@@ -10,10 +10,9 @@ const ArtistCard = ({ track }) => {
         src={track?.images?.background}
         className="w-full h-56 rounded-lg"
       />
-      {console.log(track)}
       <p className="mt-4 font-semibold text-lg text-white truncate">{track.subtitle}</p>
     </div>
-  )
+  );
 };
 
 export default ArtistCard;

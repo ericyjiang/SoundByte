@@ -20,7 +20,7 @@ const SongDetails = () => {
     dispatch(playPause(true));
   };
 
-  if (isFetchingSongDetails || isFetchingRelatedSongs) return <Loader title="Searching for song details" />;
+  if (isFetchingSongDetails || isFetchingRelatedSongs) return <Loader title="Searching For Song Details" />;
 
   if (error) return <Error />;
 
