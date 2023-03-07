@@ -1,19 +1,19 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const shazamCoreApi = createApi({
-  reducerPath: "shazamCoreApi",
+  reducerPath: 'shazamCoreApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: "'../../../functions/fetch-shazam-core'",
+    baseUrl: 'https://shazam-core.p.rapidapi.com/',
     prepareHeaders: (headers) => {
       headers.set(
-        "X-RapidAPI-Key",
-        import.meta.env.VITE_SHAZAM_CORE_RAPID_API_KEY
+        'X-RapidAPI-Key',
+        import.meta.env.VITE_SHAZAM_CORE_RAPID_API_KEY,
       );
       return headers;
     },
   }),
   endpoints: (builders) => ({
-    getTopCharts: builders.query({ query: () => "v1/charts/world" }),
+    getTopCharts: builders.query({ query: () => 'v1/charts/world' }),
     getSongsByGenre: builders.query({
       query: (genre) => `/v1/charts/genre-world?genre_code=${genre}`,
     }),
@@ -31,6 +31,7 @@ export const shazamCoreApi = createApi({
     }),
     getSongsBySearch: builders.query({
       query: (searchTerm) =>
+        // eslint-disable-next-line implicit-arrow-linebreak
         `v1/search/multi?search_type=SONGS_ARTISTS&query=${searchTerm}`,
     }),
   }),
