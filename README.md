@@ -8,10 +8,10 @@
 <p align='center'>Mobile Preview </p>
 <p align='center'> <img src='src/assets/mobileGif.gif' width="275px"></p>
 
-<p align='center'> Soundbytes was built using JavaScript, <a href="https://reactjs.org/">React.js</a>, <a href='https://react-redux.js.org/'>Redux</a>, <a href='https://tailwindcss.com/'>Tailwind CSS</a>, <a href='https://rapidapi.com/'> RapidAPI</a>, and deployed through <a href='https://www.netlify.com/'>Netlify</a>
+<p align='center'> Soundbyte was built using JavaScript, <a href="https://reactjs.org/">React.js</a>, <a href='https://react-redux.js.org/'>Redux</a>, <a href='https://tailwindcss.com/'>Tailwind CSS</a>, <a href='https://rapidapi.com/'> RapidAPI</a>, and deployed through <a href='https://www.netlify.com/'>Netlify</a>
 
 ## Deployed Site :desktop_computer:
-  Check out <a href='https://soundbyte.netlify.app/'> Soundbytes! </a> :point_left:
+  Check out <a href='https://soundbyte.netlify.app/'> Soundbyte! </a> :point_left:
 
 ## Developer :wrench:
  * Eric Jiang - [GitHub](https://github.com/ericyjiang) :computer: | [LinkedIn](https://www.linkedin.com/in/ericyjiang/) :handshake:
