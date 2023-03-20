@@ -1,4 +1,4 @@
-<h1 align='center'> :notes:  SoundBytes  :notes: </h1>
+<h1 align='center'> :notes:  SoundByte  :notes: </h1>
 
 <p align='center'> A music player web app specializing in short previews, allowing users to discover new music faster than ever before. </p>
 
